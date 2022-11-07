@@ -14,8 +14,8 @@ describe( 'index.js', () => {
   describe( 'writeCards()', () => {
 
     it( 'returns an array of thank you messages for each name provided to the function', () => {
-      expect(writeCards(["Guadalupe", "Ollie", "Aki"], "surprise")).to.deep.eq([
-        "Thank you, Guadalupe, for the wonderful surprise gift!",
+      
+        "Thank you, Guadalupe, for the wonderful surprise gift!",expect(writeCards(["Guadalupe", "Ollie", "Aki"], "surprise")).to.deep.eq([
         "Thank you, Ollie, for the wonderful surprise gift!",
         "Thank you, Aki, for the wonderful surprise gift!",
       ]);
